@@ -13,7 +13,7 @@ app.use(express.json());
 // ✅ Allow frontend origin
 // Allowlist (use origin without path)
 const allowedOrigins = [
-    "https://e-commerce-app-mu-flax.vercel.app/contact",
+    "https://e-commerce-app-mu-flax.vercel.app",
     "http://localhost:5173",
 ];
 
