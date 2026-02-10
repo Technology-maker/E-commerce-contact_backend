@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors({
     origin: [
         "https://e-commerce-app-mu-flax.vercel.app",
-        "e-commerce-app-git-main-technology-makers-projects.vercel.app",
+        "https://e-commerce-app-git-main-technology-makers-projects.vercel.app",
         "http://localhost:5173",
     ],
     methods: ["GET", "POST", "OPTIONS"],
