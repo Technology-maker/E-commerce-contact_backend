@@ -1,6 +1,8 @@
 import express from "express";
 import router from "./routes/Message.routes.js";
 import cors from "cors";
+import 'dotenv/config'
+const PORT = process.env.PORT || 3000
 
 const app = express();
 
@@ -25,4 +27,11 @@ app.get("/", (req, res) => {
     res.send("Backend running");
 });
 
+app.listen(PORT, () => {
+  console.log(`Example app listening on port http://localhost:${PORT}/api/support`)
+})
+
 export default app;
+
+
+
